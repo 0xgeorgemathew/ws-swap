@@ -90,7 +90,7 @@ const TradeTable = () => {
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-white">
                   {trade.tokenSold.symbol}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-boldtext-white">
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-white">
                   {Number(trade.tokenSold.amount).toLocaleString(undefined, {
                     maximumFractionDigits: 6,
                   })}
